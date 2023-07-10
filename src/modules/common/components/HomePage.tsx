@@ -15,12 +15,12 @@ const HomePage = () => {
         navigate(`/booking/createBooking`, {state: lesson});
     }
 
-    // useEffect(() => {
-    //     getRecommendedLessons(user)
-    //         .then(res => {
-    //             setRecommendedLessons(res)
-    //         })
-    // }, [user])
+    useEffect(() => {
+        getRecommendedLessons(user)
+            .then(res => {
+                setRecommendedLessons(res)
+            })
+    }, [user])
 
     return (
         <>
