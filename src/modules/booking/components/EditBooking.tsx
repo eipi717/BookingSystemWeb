@@ -29,7 +29,7 @@ const EditBooking = () => {
           <div className={"mb-4"}>
 
             <label className={"block text-gray-500 text-sm font-bold mb-2"}>
-              Username!
+              Username
             </label>
             <input
               className={"border rounded w-full "}

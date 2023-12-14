@@ -22,7 +22,7 @@ const NavBar = () => {
                         <div className="flex justify-start items-center">
                             <a href="/booking" className={`${NavBarEnum.navItemClass}`}>My Booking</a>
                             <a href="/lesson" className={`${NavBarEnum.navItemClass}`}>Lessons</a>
-                            <a href="/payment" className={`${NavBarEnum.navItemClass}`}>Payment</a>
+                            {/*<a href="/payment" className={`${NavBarEnum.navItemClass}`}>Payment</a>*/}
                         </div>
                         <div className="flex  items-center  ml-auto">
                             <span className={`${NavBarEnum.navItemClass}`}>{user}</span>
