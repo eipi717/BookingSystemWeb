@@ -17,7 +17,7 @@ const NavBar = () => {
                 <div className="sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center h-16">
                         <a href="/" className="flex-shrink-0 flex items-center">
-                            <img className="h-8 w-auto" src="/logo.svg" alt="Logo"/>
+                            <img className="h-8 w-auto" style={{color: "white"}} src="/logo.png" alt="Logo"/>
                         </a>
                         <div className="flex justify-start items-center">
                             <a href="/booking" className={`${NavBarEnum.navItemClass}`}>My Booking</a>
